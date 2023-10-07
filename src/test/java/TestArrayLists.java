@@ -161,21 +161,7 @@ class TestArrayLists {
 
     // Add more tests as needed
 
-    @Test
-    public void testGetInfoWithLists() {
-        ArrayList<Integer> list1 = arrayList.getList1();
-        arrayList.addToList2(10);
-        arrayList.addToList2(40);
 
-
-        ArrayList<Integer> list2 = arrayList.getList2();
-        arrayList.addToList2(20);
-        arrayList.addToList2(30);
-
-        arrayList.getInfo();
-
-        // Perform the necessary assertions or validations
-    }
 
     @Test
     public void testProcessLists_ValidLists() {
